@@ -4,8 +4,6 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hoja de Vida</title>
-    <link rel="stylesheet" href="Css/Style.css">
-    <link rel="stylesheet" href="Css/Secciones.css">
 </head>
 <body>
     <svg width="540" height="180" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
@@ -17,19 +15,63 @@
     </svg>
     <h1>Hoja de Vida</h1>
         <h2>Manuel Alejandro Grisales</h2>
-        <h3>5/04/2001</h3>
-        <a href="Index.html">Hoja de Vida</a>
-        <a href="../Educacion/Educacion.html">Educacion</a>
+        <h3>5/04/2003</h3>
+        <a href="../Index/Index.html">Hoja de Vida</a>
+        <a href="../Experiencia/Experiencia.html">Educacion</a>
         <a href="../Experiencia/Experiencia.html">Experiencia</a>
-        <h2>Informacion Personal</h2>
-        <img src="Imagenes/Foto.jpg" alt="">
-        <p>Me defino como una persona tenaz, organizada, y creativa, puedo trabajar muy bien en equipo; tengo habilidad para lograr solucionar los problemas de último minuto, tengo buen manejo de personal, de inventarios;Por último, tengo capacidad de rápido aprendizaje; y disponibilidad inmediata para lo que se necesite.
+        <h2>Educacion</h2>
+        
+        <table border="1" cellspacing=0 cellpadding=12>
+            <thead>
+                <tr>
+                    <th>Año</th>
+                    <th>Institucion</th>
+                    <th>Lugar</th>
+                    <th>Culmino?</th>
+                </tr>
+            </thead>
+            <tbody>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tbody>
+            <tfooter>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tfooter>
+        </table>
+        <h2>Agregar Estudios</h2>
+        <form>
+    <fieldset>
+        <p>
+        Año
+         <select size="">
+          <option value="P1">2012</option>
+          <option value="P2">2013</option>
+          <option value="P3">2014</option>
+          <option value="P4">2015</option>
+          <option value="P5">2016</option>
+          <option value="P6">2017</option>
+        </select> 
+       </p>
+        <p>
+            <label for="Institucion">Institucion</label>
+            <input id="Instituto" type="text"  placeholder="Institucion" required>
         </p>
-        <p>Los idiomas en los que soy experto son:</p>
-        <ul>
-            <li>Español</li>
-            <li>Ingles</li>
-        </ul>
+        <p>
+            <label for="Lugar">Lugar</label>
+            <input type="text" required size="30px" rows="4">
+        </p>
+        <p>
+        <input type="submit" value="Enviar">
+        </p>
+        
+    </fieldset>
+        </form>
+        
         <footer>
             <h2>Contacto</h2>
             <p>Correo Electronico: manuelalejandro.1@hotmail.com</p>
